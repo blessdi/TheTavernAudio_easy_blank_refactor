@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{064e2877-386a-46f7-8253-99fbde20d35d}">
+		<property name="assetPath">
+			<value>footsteps/stone/walking on stone-002.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.582857142857143</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7598095d-2ca8-41c8-9630-a4315e8668c5}</destination>
+		</relationship>
+	</object>
+</objects>
