@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{f0edb4d7-ffe2-450b-ba98-0ec7b3a5e6db}">
+		<property name="assetPath">
+			<value>jump sounds/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7598095d-2ca8-41c8-9630-a4315e8668c5}</destination>
+		</relationship>
+	</object>
+</objects>

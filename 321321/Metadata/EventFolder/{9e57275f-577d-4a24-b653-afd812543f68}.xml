@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{9e57275f-577d-4a24-b653-afd812543f68}">
+		<property name="name">
+			<value>jump sounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7127094b-0c41-426c-ba38-821a6567a63f}</destination>
+		</relationship>
+	</object>
+</objects>

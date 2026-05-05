@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: 321321/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123956709603501
+  lastModified: 639136068298219642
   FileSizes:
   - Name: Desktop
-    Value: 3242816
+    Value: 3248064
   Exists: 1
 --- !u!114 &-7413270250339442070
 MonoBehaviour:
@@ -74,6 +74,33 @@ MonoBehaviour:
   - squeek
   - close
   Exists: 1
+--- !u!114 &-6572506747913936129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/jump sounds/jump sounds
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/jump sounds/jump sounds
+  Guid:
+    Data1: -1332800459
+    Data2: 1243567075
+    Data3: -239264066
+    Data4: 331744565
+  Banks:
+  - {fileID: -8281586195288635482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 720
 --- !u!114 &-5519121259200734907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,7 +128,7 @@ MonoBehaviour:
   - {fileID: 2573336022723634936}
   MinDistance: 1
   MaxDistance: 20
-  Length: 1120
+  Length: 580
 --- !u!114 &-5176095673737387134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,13 +236,15 @@ MonoBehaviour:
   - {fileID: -414610340894045341}
   - {fileID: -7413270250339442070}
   - {fileID: 5771638180938351899}
+  - {fileID: -6572506747913936129}
+  - {fileID: 5483250545941750183}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8281586195288635482}
   StringsBanks:
   - {fileID: 5293293590087836132}
   cacheVersion: 131859
-  cacheTime: 639123956709618938
+  cacheTime: 639136068298229750
   SerializableEventsDict:
   - key: event:/jumping/jumps
     index: 0
@@ -233,6 +262,10 @@ MonoBehaviour:
     index: 6
   - key: event:/ambients/forest amb
     index: 7
+  - key: event:/jump sounds/jump sounds
+    index: 8
+  - key: snapshot:/New Snapshot
+    index: 9
 --- !u!114 &2573336022723634936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,11 +335,38 @@ MonoBehaviour:
   Path: 321321/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123956709618938
+  lastModified: 639136068298229750
   FileSizes:
   - Name: Desktop
-    Value: 1288
+    Value: 1518
   Exists: 1
+--- !u!114 &5483250545941750183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/New Snapshot
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/New Snapshot
+  Guid:
+    Data1: -1686805648
+    Data2: 1149033175
+    Data3: 591818387
+    Data4: 1001610457
+  Banks:
+  - {fileID: -8281586195288635482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &5771638180938351899
 MonoBehaviour:
   m_ObjectHideFlags: 0
